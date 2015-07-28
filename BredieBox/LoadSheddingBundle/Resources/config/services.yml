@@ -1,0 +1,4 @@
+services:
+#    load_shedding.example:
+#        class: BredieBox\LoadSheddingBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]

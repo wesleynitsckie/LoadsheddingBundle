@@ -1,0 +1,3 @@
+load_shedding_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: LoadSheddingBundle:Default:index }

@@ -1,0 +1,40 @@
+{
+    "name": "wesleynitsckie/loadsheddingbundle",
+    "type": "symfony-bundle",
+    "description": "This Bundle provides Load Shedding Schedule and information with Symfony2",
+    "keywords": ["rest"],
+    "homepage": "hhttps://github.com/wesleynitsckie/LoadsheddingBundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Wesley Nitsckie",
+            "email": "wesleynitsckie@gmail.com"
+        }
+    ],
+
+    "require": {
+        "php":                            ">=5.3.9",
+        "symfony/framework-bundle":       "~2.3"
+    },
+
+    "require-dev": {
+        "symfony/yaml":                   "~2.3"
+    },
+
+    "suggest": {
+        "sensio/framework-extra-bundle":  "Add support for route annotations and the view response listener, requires ~3.0"
+    },
+
+
+    "autoload": {
+        "psr-0": { "BredieBox\\LoadSheddingBundle": "" }
+    },
+
+    "target-dir": "BredieBox/LoadSheddingBundle",
+
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
