@@ -2,7 +2,7 @@
     "name": "wesleynitsckie/loadsheddingbundle",
     "type": "symfony-bundle",
     "description": "This Bundle provides Load Shedding Schedule and information with Symfony2",
-    "keywords": ["rest"],
+    "keywords": ["loadshedding"],
     "homepage": "https://github.com/wesleynitsckie/LoadsheddingBundle",
     "license": "MIT",
     "authors": [
@@ -35,5 +35,7 @@
         "branch-alias": {
             "dev-master": "1.0-dev"
         }
-    }
+    },
+    "minimum-stability": "dev"
+
 }
